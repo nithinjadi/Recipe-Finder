@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+          <div class="logo">
+            <a href="#">Tasty Treasures</a>
+          </div>
+          <ul class="nav-links">
+            <li><a href="login.html">Sign Out</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <section id="main-content">
+        <h1>Welcome to Recipe Finder</h1>
+        <p>Discover new recipes from around the world by simply searching for a dish name. Find the ingredients, instructions, and more, all in one place!</p>
+    </section>
+    
+  <div class="container">
+    <div class="search-container">
+      <input type="text" placeholder="Type Dish Name..." id="user-inp">
+      <button id="search-btn">Search</button>
+    </div>
+    <div id="result"></div>
+  </div>
+
+  <!-- Popup for Recipe Instructions -->
+  <div id="popup">
+    <div id="popup-content"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
